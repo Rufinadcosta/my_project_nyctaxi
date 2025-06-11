@@ -1,14 +1,22 @@
 # NYC Taxi Fare Prediction
 
-**Overview**  
-Predict ride fare based on pickup/dropoff data using regression models.
+##  Project Overview
+This project predicts taxi ride fares in New York City using machine learning regression techniques. The model leverages geospatial and time-based features engineered from pickup and drop-off data.
 
-**Features**  
-- Data cleaning, feature engineering (distance, time features)  
-- Visualized zones, fare vs. ride distance/time  
-- Regression models: Linear, Random Forest, Gradient Boosting  
-- Model evaluation using MAE and RMSE
+##  Technologies & Tools Used
+- **Python**, **Pandas**, **NumPy**
+- **Scikit-learn** for regression models
+- **GeoPy** for calculating geodesic distances
+- **Matplotlib**, **Seaborn** for visualizations
+- **Jupyter Notebook** for development
 
-**Stack**  
-Pandas, Scikit-learn, GeoPy, Matplotlib, Seaborn, Jupyter
+## Key Features
+- ✅ Cleans and preprocesses NYC taxi ride data  
+- ✅ Engineers features including distance, hour, weekday, and passenger count  
+- ✅ Visualizes trip zones and fare vs. distance/time trends  
+- ✅ Trains and compares multiple regression models:  
+  - Linear Regression  
+  - Random Forest Regressor  
+  - Gradient Boosting Regressor  
+- ✅ Evaluates models using MAE and RMSE metrics  
 
